@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header/navigation bar */
+header {
+    background-color: #333; /* Dark gray background color */
+    color: #fff; /* White text color */
+    padding: 5px 0; /* Add some padding to the top and bottom */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 180px; /* Add some space between list items */
+}
+
+nav ul li a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Style the main content sections */
+section {
+    padding: 20px; /* Add padding to the sections */
+}
+
+h1 {
+    color: #333; /* Dark gray text color */
+}
+
+h2 {
+    color: #666; /* Gray text color */
+}
+
+p {
+    color: #444; /* Dark gray text color */
+}
+
+/* Style the footer */
+footer {
+    background-color: #333; /* Dark gray background color */
+    color: #fff; /* White text color */
+    padding: 10px 0; /* Add some padding to the top and bottom */
+    text-align: center; /* Center-align text */
+}
+
+/* Position the image to the right */
+.small-image {
+    float: right;
+    margin-left: 20px; /* Add some space between the image and the content */
+    width: 150px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
